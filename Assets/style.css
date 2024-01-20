@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    
+}
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Nova Square';
+    background-color: rgb(68, 20, 35);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background: #ffffff;
+}
+
+header nav ul li{
+    margin-bottom: 30px;
+    display: inline-block
+}
+
+li {
+    display: inline;
+}
+
+/*button formatting*/
+
+.btn {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #92234f;
+    border-radius: 7px
+}
+
+.btn:hover {
+    background-color: #c11a70;
+}
+
+/*home*/
+
+.home {
+    padding-top: 40px;
+    border-top: #c11a70 20px solid;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.homepage {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.toptext {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aboutme {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-left: 6px solid #ffbddf;
+    height: 400px;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.aboutme img {
+    width: 200px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Nova Square';
+    text-shadow: 2px 2px #ffbddf;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Nova Square';
+    text-shadow: 2px 2px #ffbddf;
+    font-size: 20px;
+}
+
+.headtext {
+    font-family: 'Nova Square';
+    text-shadow: 2px 2px #410028;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    margin-left: 50px;
+}
+
+.img {
+    width: 300px;
+    height: auto;
+}
+
+/*My projects*/
+
+.mywork {
+    border-left: 6px solid #ffbddf;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    height: 1000px;
+    padding-bottom: 50px;
+}
+
+.pictures {
+    background-image: url("https://cats.com/wp-content/uploads/2020/10/adult-male-couple-of-Thai-cat-768x384.jpg");
+    background-size: cover;
+    text-decoration: none;
+    height: 900px;
+    width: 600px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 70px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#project1 {
+    background-image: url("https://t4.ftcdn.net/jpg/04/03/62/35/360_F_403623508_OhrbkZ1zc2NzB9mN1d2ZcO1WrBDGKsxY.jpg");
+    height: 700px;
+    width: 600px;
+}
+
+.imagetext {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    color: #db0071;
+}
+
+.imagetext:hover {
+    background-color: #e2e2e2;
+    color: #4d0014;
+}
+
+.ptext {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+/*Contact section*/
+
+.contact {
+    font-family: 'Nova Square';
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #410028;
+    color: #ffffff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.contact nav ul li {
+    margin-bottom: 30px;
+    display: inline-block
+}
+
+footer {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #000000;
+    color: #ffffff;
+}
