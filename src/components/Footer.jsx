@@ -1,29 +1,26 @@
 import { Link, useLocation } from 'react-router-dom';
 import React from "react";
-import "./src/App.css";
-import ghImg from './src/assets/github-mark-white.png';
-import emailImg from './src/assets/email.png';
+import ghImg from '../assets/github-mark-white.png';
+import emailImg from '../assets/email.png';
 
-function App() {
+function Footer() {
     return (
         <div>
-            <div
-                style={{
-                    minHeight: "400px",
+            <div style={{
                     color: "green",
+                    backgroundColor: "grey",
                 }}
             >
                 <h1>Footer Test</h1>
                 <a href="https://github.com/hobbsab">
-                <Image className= "footerImg" src={ghImg} />
+                <img className= "footerImg" src={ghImg} />
                 </a>
                 <a href="mailto:abhobbs2@yahoo.com">
-                <Image className= "footerImg" src={emailImg} />
+                <img className= "footerImg" src={emailImg} />
                 </a>
             </div>
-            <Footer />
         </div>
     );
 }
  
-export default App;
+export default Footer;

@@ -3,6 +3,24 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: rgb(165, 165, 165);
+}
+
+.footerImg {
+  width: 30px;
+  margin: 20px;
+}
+
+.portfolioImg {
+  width: 150px;
+  height: auto;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
 }
 
 .logo {
