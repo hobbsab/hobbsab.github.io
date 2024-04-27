@@ -1,13 +1,35 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
-  background-color: rgb(165, 165, 165);
+  background-color: #000;
+  color: #acacac
 }
+
+.maindiv {
+  margin: 40px;
+}
+
+h1 {
+  color: #fff;
+}
+
+.titleHeader {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
 
 .footerImg {
   width: 30px;
+  margin: 20px;
+}
+
+.nav-link {
+  color: #888;
+}
+
+.mainphoto {
   margin: 20px;
 }
 
@@ -16,11 +38,19 @@
   height: auto;
 }
 
+.errorImg {
+  width: 400px;
+  height: auto;
+}
+
+.imgcontainer {
+  margin: 20px;
+}
+
 .maincontainer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 20px;
 }
 
 .logo {

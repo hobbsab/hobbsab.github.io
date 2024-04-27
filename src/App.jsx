@@ -8,8 +8,8 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-      <header className= 'd-flex justify-content-between border-bottom'>
-        <h1>Anna Hobbs</h1>
+      <header className= 'd-flex justify-content-between border-bottom bg-dark bg-gradient'>
+        <h1 className='text-white titleHeader'>AH</h1>
         <Nav />
       </header>
       <main className="mx-3">

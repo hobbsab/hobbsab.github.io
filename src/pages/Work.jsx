@@ -2,7 +2,7 @@ import demoImg from '../assets/demo.jpg';
 
 export default function Work() {
   return (
-    <div>
+    <div className= 'maindiv'>
       <h1>Portfolio</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
@@ -19,17 +19,74 @@ export default function Work() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
-          <div className="maincontainer">
-        <div className="exampleimg img-thumbnail">
-            <a href="https://hobbsab.github.io/WeatherReport/"> 
-              <img className= "portfolioImg" src={demoImg} alt="weather app"/>
-            </a>
-            <div className="container">
-                <p className="caption">Weather App</p>
-            </div>
-        </div>
+      <div className='maincontainer'>
 
+      <div className="imgcontainer">
+        <div className="exampleimg">
+          <a href="https://hobbsab.github.io/WeatherReport/">
+            <img className="portfolioImg img-thumbnail" src={demoImg} alt="weather app" />
+          </a>
+          <div className="container">
+            <p className="caption">Weather App</p>
+          </div>
+        </div>
       </div>
+
+      <div className="imgcontainer">
+        <div className="exampleimg">
+          <a href="https://hobbsab.github.io/AccessibleWebsite/">
+            <img className="portfolioImg img-thumbnail" src={demoImg} alt="Accessible Website" />
+          </a>
+          <div className="container">
+            <p className="caption">Horiseon Demo Site</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="imgcontainer">
+        <div className="exampleimg">
+          <a href="https://hobbsab.github.io/PasswordGen/">
+            <img className="portfolioImg img-thumbnail" src={demoImg} alt="Password generator app" />
+          </a>
+          <div className="container">
+            <p className="caption">Password Generator</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="imgcontainer">
+        <div className="exampleimg">
+          <a href="https://hobbsab.github.io/Restaurant/public/index.html">
+            <img className="portfolioImg img-thumbnail" src={demoImg} alt="Restaurant site" />
+          </a>
+          <div className="container">
+            <p className="caption">Restaurant Website Project</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="imgcontainer">
+        <div className="exampleimg">
+          <a href="https://hobbsab.github.io/WeatherReport/">
+            <img className="portfolioImg img-thumbnail" src={demoImg} alt="weather app" />
+          </a>
+          <div className="container">
+            <p className="caption">Weather App</p>
+          </div>
+        </div>
+      </div>
+      
+      <div className="imgcontainer">
+        <div className="exampleimg">
+          <a href="https://hobbsab.github.io/WeatherReport/">
+            <img className="portfolioImg img-thumbnail" src={demoImg} alt="weather app" />
+          </a>
+          <div className="container">
+            <p className="caption">Weather App</p>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   );
 }

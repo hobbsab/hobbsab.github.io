@@ -1,7 +1,9 @@
+import htmlcssjs from '../assets/htmlcssjs-details.png';
 export default function Resume() {
   return (
-    <div>
+    <div className= 'maindiv'>
       <h1>Resume / stack skillset</h1>
+      <img className= "errorImg" src={htmlcssjs} />
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

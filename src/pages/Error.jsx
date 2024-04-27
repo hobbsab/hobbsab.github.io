@@ -1,6 +1,5 @@
 import { useRouteError } from 'react-router-dom';
-
-
+import errorImg from '../assets/error.jpg';
 
 export default function ErrorPage() {
   const error = useRouteError();
@@ -9,8 +8,7 @@ export default function ErrorPage() {
   return (
     <div id="error-page">
       <h1>Oops!</h1>
-      // Import result is the URL of your image
-
+      <img className= "errorImg" src={errorImg} />
       <p>Sorry, an unexpected error has occurred.</p>
       <p>
         <i>{error.statusText || error.message}</i>
