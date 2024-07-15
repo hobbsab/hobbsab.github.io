@@ -1,11 +1,11 @@
 import phoneImg from '../assets/phone.png';
 export default function Contact() {
   return (
-    <div className='maindiv'>
-      <h1>Contact Page</h1>
+    <div className="maindiv">
+      <h1 className="almendra-regular">Contact Page</h1>
 
       <a href="https://www.linkedin.com/in/anna-b-hobbs/">
-        <img className="footerImg" src={phoneImg} />
+        <img className="footerImg mx-auto" src={phoneImg} />
       </a>
 
       <form className="w-50 mx-auto">

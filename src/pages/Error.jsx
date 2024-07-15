@@ -7,7 +7,7 @@ export default function ErrorPage() {
 
   return (
     <div id="error-page">
-      <h1>Oops!</h1>
+      <h1 className="almendra-regular">Oops!</h1>
       <img className= "errorImg" src={errorImg} />
       <p>Sorry, an unexpected error has occurred.</p>
       <p>

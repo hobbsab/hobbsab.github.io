@@ -6,20 +6,20 @@ import linkedinImg from '../assets/linkedin.png';
 
 function Footer() {
     return (
-        <div className= 'bg-dark'>
+        <div className= 'gradient1 footerbg'>
             <div style={{
-                    color: "blue",
+                    color: "white",
                 }}
             >
-                <h1>My Links</h1>
+                <h1 class='text-light almendra-regular'>My Links</h1>
                 <a href="https://github.com/hobbsab">
-                <img className= "footerImg" src={ghImg} />
+                <img className= "footerImg mx-auto text-center" src={ghImg} />
                 </a>
                 <a href="https://www.linkedin.com/in/anna-b-hobbs/">
-                <img className= "footerImg" src={linkedinImg} />
+                <img className= "footerImg mx-auto text-center" src={linkedinImg} />
                 </a>
                 <a href="mailto:abhobbs2@yahoo.com">
-                <img className= "footerImg" src={emailImg} />
+                <img className= "footerImg mx-auto text-center" src={emailImg} />
                 </a>
             </div>
         </div>

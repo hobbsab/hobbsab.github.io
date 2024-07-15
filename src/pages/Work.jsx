@@ -1,92 +1,96 @@
 import demoImg from '../assets/demo.jpg';
+import { Card, CardHeader, CardBody, CardFooter, Stack, Heading, Button } from '@chakra-ui/react'
 
 export default function Work() {
   return (
-    <div className= 'maindiv'>
-      <h1>Portfolio</h1>
+    <div className="maindiv">
+      <h1 className="almendra-regular">Projects</h1>
       <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
+      A variety of web projects I've worked on.
       </p>
       <div className='maincontainer'>
 
-      <div className="imgcontainer">
-        <div className="exampleimg">
-          <a href="https://hobbsab.github.io/WeatherReport/">
-            <img className="portfolioImg img-thumbnail" src={demoImg} alt="weather app" />
-          </a>
-          <div className="container">
-            <p className="caption">Weather App</p>
-          </div>
-        </div>
-      </div>
+      {/* <div className="card" style="width: 18rem;">*/}
 
-      <div className="imgcontainer">
-        <div className="exampleimg">
-          <a href="https://hobbsab.github.io/AccessibleWebsite/">
-            <img className="portfolioImg img-thumbnail" src={demoImg} alt="Accessible Website" />
-          </a>
-          <div className="container">
-            <p className="caption">Horiseon Demo Site</p>
+        <div className="imgcontainer card mx-auto">
+          <div className="exampleimg card-img-top">
+              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
+            <div className="container">
+              <h3 className="workheader">Weather App</h3>
+              <p className="caption container-sm">A simple web application with a city search bar that shows the weather for today and a 5-day forecast.</p>
+            </div>
+            <a href="https://hobbsab.github.io/WeatherReport/" class="btn btn-primary">View</a>
           </div>
         </div>
-      </div>
 
-      <div className="imgcontainer">
-        <div className="exampleimg">
-          <a href="https://hobbsab.github.io/PasswordGen/">
-            <img className="portfolioImg img-thumbnail" src={demoImg} alt="Password generator app" />
-          </a>
-          <div className="container">
-            <p className="caption">Password Generator</p>
+        <div className="imgcontainer card mx-auto">
+          <div className="exampleimg card-img-top">
+              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
+            <div className="container">
+              <h3 className="workheader">Random Video Generator</h3>
+              <p className="caption container-sm">Want to watch a random video about animals? Or maybe a music video? Try it out.</p>
+            </div>
+            <a href="https://randomvideogen.netlify.app/" class="btn btn-primary">View</a>
           </div>
         </div>
-      </div>
 
-      <div className="imgcontainer">
-        <div className="exampleimg">
-          <a href="https://hobbsab.github.io/Restaurant/public/index.html">
-            <img className="portfolioImg img-thumbnail" src={demoImg} alt="Restaurant site" />
-          </a>
-          <div className="container">
-            <p className="caption">Restaurant Website Project</p>
+        <div className="imgcontainer card mx-auto">
+          <div className="exampleimg card-img-top">
+              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
+            <div className="container">
+              <h3 className="workheader">Horiseon Website</h3>
+              <p className="caption container-sm">This is a demo website. Its code has been revised to be more accessible and organized, alt text was given to the images and a broken link was fixed.</p>
+            </div>
+            <a href="https://hobbsab.github.io/AccessibleWebsite/" class="btn btn-primary">View</a>
           </div>
         </div>
-      </div>
 
-      <div className="imgcontainer">
-        <div className="exampleimg">
-          <a href="https://hobbsab.github.io/WeatherReport/">
-            <img className="portfolioImg img-thumbnail" src={demoImg} alt="weather app" />
-          </a>
-          <div className="container">
-            <p className="caption">Weather App</p>
+        <div className="imgcontainer card mx-auto">
+          <div className="exampleimg card-img-top">
+              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
+            <div className="container">
+              <h3 className="workheader">Password Generator</h3>
+              <p className="caption container-sm">A simple web application with a city search bar that shows the weather for today and a 5-day forecast.</p>
+            </div>
+            <a href="https://hobbsab.github.io/PasswordGen/" class="btn btn-primary">View</a>
           </div>
         </div>
-      </div>
-      
-      <div className="imgcontainer">
-        <div className="exampleimg">
-          <a href="https://hobbsab.github.io/WeatherReport/">
-            <img className="portfolioImg img-thumbnail" src={demoImg} alt="weather app" />
-          </a>
-          <div className="container">
-            <p className="caption">Weather App</p>
+
+        <div className="imgcontainer card mx-auto">
+          <div className="exampleimg card-img-top">
+              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
+            <div className="container">
+              <h3 className="workheader">Indian Restaurant</h3>
+              <p className="caption container-sm">Yum, chana masala...</p>
+            </div>
+            <a href="https://hobbsab.github.io/Restaurant/public/index.html" class="btn btn-primary">View</a>
           </div>
         </div>
+
+        <div className="imgcontainer card mx-auto">
+          <div className="exampleimg card-img-top">
+              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
+            <div className="container">
+              <h3 className="workheader">Work Scheduler</h3>
+              <p className="caption container-sm">For your 9-5 shenanigans</p>
+            </div>
+            <a href="https://hobbsab.github.io/WorkSchedule/Develop/index.html" class="btn btn-primary">View</a>
+          </div>
+        </div>
+
+        <div className="imgcontainer card mx-auto">
+          <div className="exampleimg card-img-top">
+              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
+            <div className="container">
+              <h3 className="workheader">Coding Quiz</h3>
+              <p className="caption container-sm">Work in progress. A simple quiz application to test your knowledge on coding.</p>
+            </div>
+            <a href="https://hobbsab.github.io/" class="btn btn-primary">View</a>
+          </div>
+        </div>
+
+
       </div>
-    </div>
     </div>
   );
 }
