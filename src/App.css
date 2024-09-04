@@ -45,6 +45,10 @@ h1 {
 .footerImg {
   width: 30px;
   margin: 20px;
+  opacity: 0.7;
+}
+.footerImg:hover {
+  opacity: 1;
 }
 
 .nav-link {

@@ -1,4 +1,4 @@
-import demoImg from '../assets/demo.jpg';
+import demoImg from '../assets/demo2.png';
 import { Card, CardHeader, CardBody, CardFooter, Stack, Heading, Button } from '@chakra-ui/react'
 
 export default function Work() {
@@ -28,7 +28,7 @@ export default function Work() {
               <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
             <div className="container">
               <h3 className="workheader">Random Video Generator</h3>
-              <p className="caption container-sm">Want to watch a random video about animals? Or maybe a music video? Try it out.</p>
+              <p className="caption container-sm">Want to watch a random video about animals? Or maybe a music video? Try it out. This is a project built in React utilizing the YouTube API.</p>
             </div>
             <a href="https://randomvideogen.netlify.app/" class="btn btn-primary">View</a>
           </div>
@@ -50,7 +50,7 @@ export default function Work() {
               <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
             <div className="container">
               <h3 className="workheader">Password Generator</h3>
-              <p className="caption container-sm">A simple web application with a city search bar that shows the weather for today and a 5-day forecast.</p>
+              <p className="caption container-sm">A simple and secure password generator.</p>
             </div>
             <a href="https://hobbsab.github.io/PasswordGen/" class="btn btn-primary">View</a>
           </div>
@@ -61,7 +61,7 @@ export default function Work() {
               <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
             <div className="container">
               <h3 className="workheader">Indian Restaurant</h3>
-              <p className="caption container-sm">Yum, chana masala...</p>
+              <p className="caption container-sm">A demo web project for an Indian restaurant, featuring a menu and a reservation system using Express.js, Sequelize and PostgreSQL.</p>
             </div>
             <a href="https://hobbsab.github.io/Restaurant/public/index.html" class="btn btn-primary">View</a>
           </div>
@@ -72,13 +72,28 @@ export default function Work() {
               <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
             <div className="container">
               <h3 className="workheader">Work Scheduler</h3>
-              <p className="caption container-sm">For your 9-5 shenanigans</p>
+              <p className="caption container-sm">For your 9-5 shenanigans.</p>
             </div>
             <a href="https://hobbsab.github.io/WorkSchedule/Develop/index.html" class="btn btn-primary">View</a>
           </div>
         </div>
 
+
         <div className="imgcontainer card mx-auto">
+          <div className="exampleimg card-img-top">
+              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
+            <div className="container">
+              <h3 className="workheader">Note Taker</h3>
+              <p className="caption container-sm">A simple note taker app with an Express.js backend.</p>
+            </div>
+            <a href="https://note-taker3001-9ed4513fa6a4.herokuapp.com/" class="btn btn-primary">View</a>
+          </div>
+        </div>
+
+
+
+
+        {/* <div className="imgcontainer card mx-auto">
           <div className="exampleimg card-img-top">
               <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
             <div className="container">
@@ -87,7 +102,7 @@ export default function Work() {
             </div>
             <a href="https://hobbsab.github.io/" class="btn btn-primary">View</a>
           </div>
-        </div>
+        </div> */}
 
 
       </div>

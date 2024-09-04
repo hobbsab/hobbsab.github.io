@@ -6,24 +6,28 @@ import linkedinImg from '../assets/linkedin.png';
 
 function Footer() {
     return (
-        <div className= 'gradient1 footerbg'>
+        <div className='gradient1 footerbg'>
             <div style={{
-                    color: "white",
-                }}
+                color: "white",
+            }}
             >
                 <h1 class='text-light almendra-regular'>My Links</h1>
-                <a href="https://github.com/hobbsab">
-                <img className= "footerImg mx-auto text-center" src={ghImg} />
-                </a>
-                <a href="https://www.linkedin.com/in/anna-b-hobbs/">
-                <img className= "footerImg mx-auto text-center" src={linkedinImg} />
-                </a>
-                <a href="mailto:abhobbs2@yahoo.com">
-                <img className= "footerImg mx-auto text-center" src={emailImg} />
-                </a>
+
+                <div class="mx-auto">
+                    <a href="https://github.com/hobbsab">
+                        <img className="footerImg d-inline-block text-center" src={ghImg} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/anna-b-hobbs/">
+                        <img className="footerImg d-inline-block text-center" src={linkedinImg} />
+                    </a>
+                    <a href="mailto:abhobbs2@yahoo.com">
+                        <img className="footerImg d-inline-block text-center" src={emailImg} />
+                    </a>
+                    <p class='text-info'>© Anna Hobbs, 2024</p>
+                </div>
             </div>
         </div>
     );
 }
- 
+
 export default Footer;
