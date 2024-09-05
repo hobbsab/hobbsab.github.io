@@ -1,19 +1,6 @@
 import phoneImg from '../assets/phone.png';
 import JotformEmbed from 'react-jotform-embed';
 
-// export default function Contact() {
-//   return (
-//     <div className="maindiv">
-//       <h1 className="almendra-regular">Contact Page</h1>
-//       <a href="https://www.linkedin.com/in/anna-b-hobbs/">
-//         <img className="footerImg mx-auto" src={phoneImg} />
-//       </a>
-//       <h1 className="almendra-regular">Contact Page</h1>
-//       <JotformEmbed src="https://form.jotform.com/jsform/242433999221158" />
-//     </div>
-//   );
-// }
-
 export default function Contact() {
   return (
     <div className="maindiv">
@@ -21,7 +8,7 @@ export default function Contact() {
       <a href="https://www.linkedin.com/in/anna-b-hobbs/">
         <img className="footerImg mx-auto" src={phoneImg} />
       </a>
-      <JotformEmbed src="https://form.jotform.com/242433999221158" />
+      {/* <JotformEmbed src="https://form.jotform.com/242433999221158" /> */}
     </div>
   );
 }

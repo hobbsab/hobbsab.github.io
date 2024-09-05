@@ -35,7 +35,7 @@ function NavTabs() {
           Resume
         </Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link
           to="/Contact"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -43,7 +43,7 @@ function NavTabs() {
         >
           Contact
         </Link>
-      </li>
+      </li> */}
     </ul>
   );
 }

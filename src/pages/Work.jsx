@@ -89,22 +89,6 @@ export default function Work() {
             <a href="https://note-taker3001-9ed4513fa6a4.herokuapp.com/" class="btn btn-primary">View</a>
           </div>
         </div>
-
-
-
-
-        {/* <div className="imgcontainer card mx-auto">
-          <div className="exampleimg card-img-top">
-              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
-            <div className="container">
-              <h3 className="workheader">Coding Quiz</h3>
-              <p className="caption container-sm">Work in progress. A simple quiz application to test your knowledge on coding.</p>
-            </div>
-            <a href="https://hobbsab.github.io/" class="btn btn-primary">View</a>
-          </div>
-        </div> */}
-
-
       </div>
     </div>
   );

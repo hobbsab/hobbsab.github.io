@@ -57,6 +57,7 @@ h1 {
 
 .mainphoto {
   margin: 20px;
+  border: 5px solid #555;
 }
 
 /* LIGHT/DARK MODES */
