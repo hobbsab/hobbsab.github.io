@@ -39,7 +39,7 @@ export default function Work() {
               <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
             <div className="container">
               <h3 className="workheader">Horiseon Website</h3>
-              <p className="caption container-sm">This is a demo website. Its code has been revised to be more accessible and organized, alt text was given to the images and a broken link was fixed.</p>
+              <p className="caption container-sm">A website for a SEO company. It has accessible alt text.</p>
             </div>
             <a href="https://hobbsab.github.io/AccessibleWebsite/" class="btn btn-primary">View</a>
           </div>

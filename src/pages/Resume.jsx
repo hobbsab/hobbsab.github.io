@@ -8,6 +8,7 @@ export default function Resume() {
             <a href="https://ahresume.tiiny.site/" class="btn btn-primary">View Resume</a>
       </div>
       <img className= "errorImg mx-auto p-3" src={htmlcssjs} />
+      <img className= "errorImg mx-auto p-3" src="https://gurzu.com/img/gurzu/mern-stack-01.webp" />
       </div>
   );
 }
