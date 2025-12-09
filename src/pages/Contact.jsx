@@ -1,4 +1,3 @@
-import phoneImg from '../assets/phone.png';
 import JotformEmbed from 'react-jotform-embed';
 
 export default function Contact() {

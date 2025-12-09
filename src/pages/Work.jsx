@@ -1,95 +1,103 @@
 import demoImg from '../assets/demo2.png';
-import { Card, CardHeader, CardBody, CardFooter, Stack, Heading, Button } from '@chakra-ui/react'
+import grumpyGremlin from '../assets/lunasit.png';
 
 export default function Work() {
   return (
     <div className="maindiv">
       <h1 className="almendra-regular">Projects</h1>
       <p>
-      A variety of web projects I've worked on.
+        A variety of web projects I've worked on.
       </p>
       <div className='maincontainer'>
 
-      {/* <div className="card" style="width: 18rem;">*/}
-
-        <div className="imgcontainer card mx-auto">
-          <div className="exampleimg card-img-top">
-              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
-            <div className="container">
-              <h3 className="workheader">Weather App</h3>
-              <p className="caption container-sm">A simple web application with a city search bar that shows the weather for today and a 5-day forecast.</p>
-            </div>
-            <a href="https://hobbsab.github.io/WeatherReport/" class="btn btn-primary">View</a>
+        <div className="card d-flex flex-column h-100">
+          <div className="card-body">
+            <h3 className="card-title workheader">Weather App</h3>
+            <p className="card-text caption">A web application with a city search bar that shows the weather for today and a 5-day forecast.</p>
+          </div>
+          <div className="mt-auto">
+            <a href="https://hobbsab.github.io/WeatherReport/" className="btn btn-primary viewbtn">
+              View
+            </a>
           </div>
         </div>
 
-        <div className="imgcontainer card mx-auto">
-          <div className="exampleimg card-img-top">
-              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
-            <div className="container">
-              <h3 className="workheader">Random Video Generator</h3>
-              <p className="caption container-sm">Want to watch a random video about animals? Or maybe a music video? Try it out. This is a project built in React utilizing the YouTube API.</p>
-            </div>
-            <a href="https://randomvideogen.netlify.app/" class="btn btn-primary">View</a>
+        <div className="card d-flex flex-column h-100">
+          <div className="card-body">
+            <h3 className="card-title workheader">Random Video Generator</h3>
+            <p className="card-text caption">Want to watch a random video about animals? Or maybe a music video? Try it out. This is a project built in React utilizing the YouTube API.</p>
+          </div>
+          <div className="mt-auto">
+            <a href="https://randomvideogen.netlify.app/" className="btn btn-primary viewbtn">
+              View
+            </a>
           </div>
         </div>
 
-        <div className="imgcontainer card mx-auto">
-          <div className="exampleimg card-img-top">
-              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
-            <div className="container">
-              <h3 className="workheader">Horiseon Website</h3>
-              <p className="caption container-sm">A website for a SEO company. It has accessible alt text.</p>
-            </div>
-            <a href="https://hobbsab.github.io/AccessibleWebsite/" class="btn btn-primary">View</a>
+        <div className="card d-flex flex-column h-100">
+          <div className="card-body">
+            <h3 className="card-title workheader">Horiseon Website</h3>
+            <p className="card-text caption">A simple website for an SEO company. It has accessible alt text.</p>
+          </div>
+          <div className="mt-auto">
+            <a href="https://hobbsab.github.io/AccessibleWebsite/" className="btn btn-primary viewbtn">
+              View
+            </a>
           </div>
         </div>
 
-        <div className="imgcontainer card mx-auto">
-          <div className="exampleimg card-img-top">
-              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
-            <div className="container">
-              <h3 className="workheader">Password Generator</h3>
-              <p className="caption container-sm">A simple and secure password generator.</p>
-            </div>
-            <a href="https://hobbsab.github.io/PasswordGen/" class="btn btn-primary">View</a>
+        <div className="card d-flex flex-column h-100">
+          <div className="card-body">
+            <h3 className="card-title workheader">Password Generator</h3>
+            <p className="card-text caption">A simple and secure password generator.</p>
+          </div>
+          <div className="mt-auto">
+            <a href="https://hobbsab.github.io/PasswordGen/" className="btn btn-primary viewbtn">
+              View
+            </a>
           </div>
         </div>
 
-        <div className="imgcontainer card mx-auto">
-          <div className="exampleimg card-img-top">
-              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
-            <div className="container">
-              <h3 className="workheader">Indian Restaurant</h3>
-              <p className="caption container-sm">A demo web project for an Indian restaurant, featuring a menu and a reservation system using Express.js, Sequelize and PostgreSQL.</p>
-            </div>
-            <a href="https://hobbsab.github.io/Restaurant/public/index.html" class="btn btn-primary">View</a>
+        <div className="card d-flex flex-column h-100">
+          <div className="card-body">
+            <h3 className="card-title workheader">Indian Restaurant</h3>
+            <p className="card-text caption">A demo web project for an Indian restaurant, featuring a menu and a reservation system using Express.js, Sequelize and PostgreSQL.</p>
+          </div>
+          <div className="mt-auto">
+            <a href="https://hobbsab.github.io/Restaurant/public/index.html" className="btn btn-primary viewbtn">
+              View
+            </a>
           </div>
         </div>
 
-        <div className="imgcontainer card mx-auto">
-          <div className="exampleimg card-img-top">
-              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
-            <div className="container">
-              <h3 className="workheader">Work Scheduler</h3>
-              <p className="caption container-sm">For your 9-5 shenanigans.</p>
-            </div>
-            <a href="https://hobbsab.github.io/WorkSchedule/Develop/index.html" class="btn btn-primary">View</a>
+        <div className="card d-flex flex-column h-100">
+          <div className="card-body">
+            <h3 className="card-title workheader">Work Scheduler</h3>
+            <p className="card-text caption">For your 9-5 shenanigans.</p>
+          </div>
+          <div className="mt-auto">
+            <a href="https://hobbsab.github.io/WorkSchedule/Develop/index.html" className="btn btn-primary viewbtn">
+              View
+            </a>
+          </div>
+        </div>
+
+        <div className="card d-flex flex-column h-100">
+          <div className="card-body">
+            <h3 className="card-title workheader">Note Taker</h3>
+            <p className="card-text caption">A simple note taker app with an Express.js backend.</p>
+          </div>
+          <div className="mt-auto">
+            <a href="https://note-taker3001-9ed4513fa6a4.herokuapp.com/" className="btn btn-primary viewbtn">
+              View
+            </a>
           </div>
         </div>
 
 
-        <div className="imgcontainer card mx-auto">
-          <div className="exampleimg card-img-top">
-              <img className="portfolioImg img-thumbnail mx-auto" src={demoImg} alt="Weather app" />
-            <div className="container">
-              <h3 className="workheader">Note Taker</h3>
-              <p className="caption container-sm">A simple note taker app with an Express.js backend.</p>
-            </div>
-            <a href="https://note-taker3001-9ed4513fa6a4.herokuapp.com/" class="btn btn-primary">View</a>
-          </div>
-        </div>
+
       </div>
+      {/* <img className="mx-auto" alt="Weird Siamese" title='Luna (she bites)' src={grumpyGremlin} width="150" height="auto" /> */}
     </div>
   );
 }
