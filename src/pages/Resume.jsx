@@ -1,33 +1,36 @@
 import htmlcssjs from '../assets/htmlcssjs-details.png';
+import { useState } from 'react';
 
-// React-PDF imports
+// React-PDF
 import { pdfjs, Document, Page } from 'react-pdf';
 import workerSrc from 'pdfjs-dist/build/pdf.worker.mjs?url';
 
-// Configure the PDF.js worker
+// pdfjs worker
 pdfjs.GlobalWorkerOptions.workerSrc = workerSrc;
 
-// Import your PDF (adjust path if needed)
-import samplePdf from '../assets/sample.pdf';
+//import the pdf file
+import MyCV from '../assets/CV2025.pdf';
 
 export default function Resume() {
+  const [numPages, setNumPages] = useState(null);
+
+  const onDocumentLoadSuccess = ({ numPages }) => {
+    setNumPages(numPages);
+  };
+
   return (
     <div className="maindiv mx-auto">
-      <h1 className="almendra-regular">Resume / stack skillset</h1>
+      <h1 className="almendra-regular">My CV / Résumé</h1>
 
-{/* PDF Viewer */}
-<div className="mx-auto" style={{ width: "fit-content", marginTop: "2rem" }}>
-  <Document file={samplePdf}>
-    <Page pageNumber={1} />
-  </Document>
-</div>
-
-
-      {/* <img className="errorImg mx-auto p-3" src={htmlcssjs} />
-      <img
-        className="errorImg mx-auto p-3"
-        src="https://gurzu.com/img/gurzu/mern-stack-01.webp"
-      /> */}
+      {/* view my resume */}
+      <div className="mx-auto" style={{ width: "fit-content", marginTop: "2rem" }}>
+        <Document file={MyCV} onLoadSuccess={onDocumentLoadSuccess}>
+          {numPages &&
+            Array.from(new Array(numPages), (el, index) => (
+              <Page key={`page_${index + 1}`} pageNumber={index + 1} renderTextLayer={false} />
+            ))}
+        </Document>
+      </div>
 
       <div className="container_skills"></div>
     </div>
